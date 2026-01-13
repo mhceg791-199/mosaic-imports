@@ -62,7 +62,7 @@ const MosaicSponsor = () => {
         {/* ================= CORE SPONSOR ================= */}
         <div
           ref={coreRef}
-          className="absolute z-50 w-72 h-72 md:w-[420px] md:h-[420px]
+          className="absolute z-50 w-72 h-72 md:w-[460px] md:h-[460px]
                      rounded-full flex items-center justify-center
                      bg-black/40 backdrop-blur-2xl
                      border border-secondColor/30
@@ -79,7 +79,7 @@ const MosaicSponsor = () => {
             <div className="mt-6 flex flex-col items-center gap-3">
               <div className="h-px w-28 bg-gradient-to-r from-transparent via-secondColor to-transparent" />
               <span className="text-[10px] tracking-[0.5em] uppercase text-zinc-400 font-bold">
-                Official Core Sponsor
+                Global Sourcing for the Built World
               </span>
             </div>
           </div>

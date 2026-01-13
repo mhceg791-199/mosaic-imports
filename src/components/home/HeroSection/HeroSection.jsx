@@ -63,7 +63,7 @@ export default function HeroSection() {
             mt-6 sm:mt-8
           "
         >
-          Curating Earths Finest Surfaces
+          Global Sourcing for the Built World
         </motion.p>
       </div>
 

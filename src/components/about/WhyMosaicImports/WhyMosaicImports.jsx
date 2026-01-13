@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
-import { Compass, Globe, Cpu, Truck, Award } from "lucide-react";
 import SectionHeader from "../../shared/SectionHeaders/SectionHeader";
 import LightPillar from "../LightPillar/LightPillar";
+import reasons from "../../../data/reasons";
 
 const DURATION = 4000;
 const STEP_TIME = 40;
@@ -12,53 +12,6 @@ const WhyMosaicImports = () => {
   const [progress, setProgress] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
   const containerRef = useRef(null);
-
-  const reasons = [
-    {
-      id: 0,
-      icon: <Compass className="w-8 h-8" />,
-      title: "Technical Understanding",
-      subtitle: "Professional Insight",
-      description:
-        "A clear understanding of construction, engineering, and architectural workflows.",
-      color: "from-mainColor to-mainGold",
-    },
-    {
-      id: 1,
-      icon: <Cpu className="w-8 h-8" />,
-      title: "Integrated Sourcing",
-      subtitle: "One Structured Partner",
-      description:
-        "The ability to supply multiple material categories through one structured partner.",
-      color: "from-secondColor to-mainGold",
-    },
-    {
-      id: 2,
-      icon: <Globe className="w-8 h-8" />,
-      title: "Global Access",
-      subtitle: "Project-Aligned Network",
-      description:
-        "A global supplier network aligned with real project requirements.",
-      color: "from-mainGold to-secondColor",
-    },
-    {
-      id: 3,
-      icon: <Truck className="w-8 h-8" />,
-      title: "Flexible Delivery",
-      subtitle: "Any Scale. Any Sector.",
-      description: "Flexibility across project size, sector, and complexity.",
-      color: "from-mainColor to-secondColor",
-    },
-    {
-      id: 4,
-      icon: <Award className="w-8 h-8" />,
-      title: "Reliable Partnerships",
-      subtitle: "Built for the Long Term",
-      description:
-        "A focus on reliability, consistency, and long-term relationships.",
-      color: "from-mainGold to-mainColor",
-    },
-  ];
 
   /* ================= AUTO + PROGRESS ================= */
   useEffect(() => {
