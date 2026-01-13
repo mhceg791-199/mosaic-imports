@@ -65,12 +65,12 @@ const ServiceItem = ({ service, index }) => {
             {service.title}
           </h3>
 
-          <div className="h-1 w-20 bg-[#B59963] mt-6" />
+          <div className="h-1 w-20 bg-mainGold mt-6" />
 
-          <ul className="mt-10 space-y-4 text-zinc-500 text-lg leading-relaxed max-w-md">
+          <ul className="mt-10 space-y-4 text-zinc-500 text-lg leading-relaxed max-w-md" >
             {service.items.map((item, i) => (
               <li key={i} className="flex items-start gap-3">
-                <span className="text-[#B59963] mt-1">•</span>
+                {/* <span className="text-mainGold mt-1">•</span> */}
                 <span>{item}</span>
               </li>
             ))}
