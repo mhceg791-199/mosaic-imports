@@ -15,6 +15,7 @@ import Terms from "./pages/Terms/Terms";
 import Privacy from "./pages/Privacy/Privacy";
 import MagneticCursor from "./components/shared/MagneticCursor/MagneticCursor";
 
+
 function App() {
   return (
     <>

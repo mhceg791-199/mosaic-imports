@@ -12,11 +12,21 @@ export default function HeroSection() {
         className="absolute inset-0"
       >
         <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#050505] z-10" />
-        <img
+        {/* <img
           src={home}
           alt="Mosaic Imports"
           className="w-full h-full object-cover"
-        />
+        /> */}
+        <img
+  src={home}
+  alt="Mosaic Imports"
+  width="1920"
+  height="1080"
+  loading="eager"
+  fetchpriority="high"
+  className="w-full h-full object-cover"
+/>
+
       </motion.div>
 
       {/* Content */}
@@ -27,7 +37,7 @@ export default function HeroSection() {
           transition={{ duration: 1, delay: 0.5 }}
         >
           <h1 className="
-            font-black uppercase italic tracking-tighter leading-none
+            font-black uppercase italic tracking-tighter leading-none will-change-transform
             text-[18vw]
             sm:text-[14vw]
             md:text-[10rem]
@@ -70,7 +80,8 @@ export default function HeroSection() {
       {/* Scroll Indicator */}
       <div className="absolute bottom-6 sm:bottom-10 left-1/2 -translate-x-1/2 overflow-hidden h-16 sm:h-20 w-px bg-white/10">
         <motion.div
-          animate={{ y: [0, 64] }}
+          // animate={{ y: [0, 64] }}
+          animate={{ translateY: ["0%", "100%"] }}
           transition={{ repeat: Infinity, duration: 1.5 }}
           className="w-full h-1/2 bg-[#B59963]"
         />
