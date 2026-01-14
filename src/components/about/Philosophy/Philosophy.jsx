@@ -58,12 +58,12 @@ const ArchitecturalPhilosophy = () => {
       </div>
 
       {/* ================= HEADER ================= */}
-      <div className="font-bold mb-16 text-center relative z-10">
+      <div className="font-bold mb-8 md:mb-16 text-center relative z-10">
         <SectionHeader firstWord="Our Philosophy" />
       </div>
 
       {/* ================= PRINCIPLES GRID ================= */}
-      <div className="relative z-10 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
+      <div className="relative z-10 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-12">
         {principles.map((item, i) => (
           <div
             key={i}

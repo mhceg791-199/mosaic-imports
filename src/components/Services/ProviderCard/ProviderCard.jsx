@@ -7,7 +7,7 @@ import services from "../../../data/services";
 const ProviderCard = () => {
   return (
     <div className="bg-lightColor overflow-x-hidden">
-      <section className="py-20 px-6 max-w-7xl mx-auto">
+      <section className="py-3 md:py-20 px-6 max-w-7xl mx-auto">
         <div className="flex flex-col gap-10 md:gap-40">
           {services.map((service, index) => (
             <ServiceItem key={service.id} service={service} index={index} />
@@ -29,7 +29,7 @@ const ServiceItem = ({ service, index }) => {
       ref={ref}
       className={`flex flex-col ${
         index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
-      } items-center gap-20`}
+      } items-center gap-2 md:gap-20`}
     >
       {/* IMAGE */}
       <div className="w-full md:w-1/2 relative group">
@@ -61,13 +61,13 @@ const ServiceItem = ({ service, index }) => {
           animate={isInView ? { opacity: 1, x: 0 } : {}}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          <h3 className="text-6xl md:text-8xl text-mainColor font-bold mt-2 leading-none uppercase">
+          <h3 className="text-5xl md:text-8xl text-mainColor font-bold mt-2 leading-none uppercase">
             {service.title}
           </h3>
 
-          <div className="h-1 w-20 bg-mainGold mt-6" />
+          <div className="h-1 w-20 bg-mainGold mt-4 md:mt-6" />
 
-          <ul className="mt-10 space-y-4 text-zinc-500 text-lg leading-relaxed max-w-md" >
+          <ul className="mt-6 md:mt-10 space-y-4 text-zinc-500 text-lg leading-relaxed max-w-md" >
             {service.items.map((item, i) => (
               <li key={i} className="flex items-start gap-3">
                 {/* <span className="text-mainGold mt-1">•</span> */}

@@ -87,7 +87,7 @@ const MosaicSponsor = () => {
 
         {/* ================= PARTNERS GRID ================= */}
         <div className="absolute inset-0 z-20 flex items-center justify-center">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-10 md:gap-12 px-10 max-w-7xl">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-12 px-10 max-w-7xl">
             {partners.map((partner, i) => {
               const Wrapper = partner.url ? "a" : "div";
 

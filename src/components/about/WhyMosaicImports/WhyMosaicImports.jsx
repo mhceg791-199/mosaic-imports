@@ -63,7 +63,7 @@ const WhyMosaicImports = () => {
           }}
         />
       </div>
-      <div className="relative z-10 max-w-7xl mx-auto px-6 py-10 min-h-screen flex flex-col">
+      <div className="relative z-10 max-w-7xl mx-auto px-6 py-2 md:py-10 min-h-screen flex flex-col">
         {/* ================= HEADER ================= */}
         <div className="font-bold mb-6">
           <SectionHeader firstWord="Why Mosaic Imports" />

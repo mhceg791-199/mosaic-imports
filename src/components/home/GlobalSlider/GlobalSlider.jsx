@@ -60,8 +60,8 @@ const GlobalSlider = () => {
 
   return (
     <section className="min-h-screen bg-lightColor text-lightColor flex items-center justify-center px-6 md:p-6 selection:bg-mainGold/30">
-      <div className="w-full h-[80vh] max- bg-mainColor border border-lightColor/10 rounded-3xl backdrop-blur-xl shadow-2xl overflow-hidden">
-        <div className="text-center py-14">
+      <div className="w-full h-[100vh] md:h-[80vh] max- bg-mainColor border border-lightColor/10 rounded-3xl backdrop-blur-xl shadow-2xl overflow-hidden">
+        <div className="text-center py-6 md:py-14">
           <SectionHeader firstWord="Global Presence & Ecosystem" />
         </div>
 

@@ -9,9 +9,9 @@ const Industries = () => {
 
   return (
     <div className="relative min-h-[85vh] bg-lightColor text-mainColor font-sans overflow-hidden">
-      <section className="flex flex-col md:flex-row h-[85vh] pt-32 md:pt-0">
+      <section className="flex flex-col md:flex-row h-[85vh] ">
         {/* Intro */}
-        <div className="w-full md:w-1/4 p-10 md:p-14 flex flex-col justify-center border-r border-mainColor/10 bg-lightColor">
+        <div className="w-full md:w-1/4  p-6 md:p-14 flex flex-col justify-center border-r border-mainColor/10 bg-lightColor">
           <h2 className="text-5xl md:text-5xl font-black mb-8 leading-[0.9] tracking-tight uppercase">
             Industries <br /> We Serve
           </h2>
