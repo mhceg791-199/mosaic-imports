@@ -30,17 +30,7 @@ const Industries = () => {
               <MoveRight className="w-5 h-5" />
             </div>
             <span
-              className="
-                          text-[10px]
-                          font-bold
-                          tracking-widest
-                          uppercase
-                          cursor-pointer
-                          transition
-                          duration-300
-                          hover:text-mainColor
-                          hover:tracking-[0.2em]
-                        "
+              className="text-[10px] font-bold tracking-widest uppercase cursor-pointer transition duration-300 hover:text-mainColor hover:tracking-[0.2em]"
               onClick={() => nav("/services")}
             >
               Explore Sectors
