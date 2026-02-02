@@ -135,7 +135,7 @@ const Overview = () => {
                 Mosaic Imports is a global sourcing and import company operating
                 under{" "}
                 <span className="text-white font-bold border-b border-secondColor">
-                  <Link to="https://mosaicholding.com/" target="_blank"  rel="noopener noreferrer">Mosaic Holding Incorporation</Link>
+                  <Link to="https://mosaicholding.com/" target="_blank"  rel="noopener noreferrer">Mosaic Holding Corporation</Link>
                 </span>
                 . It was established to respond to one essential reality of the
                 built environment:
