@@ -9,7 +9,7 @@ export const partners = [
     id: 2,
     name: "Mosaic Engineering",
     logo: "/sponser/mosaic-engineering.webp",
-    url: null,
+    url: "https://mosaic-eng.com/",
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ export const partners = [
     id: 7,
     name: "Mosaic Property Management",
     logo: "/sponser/mosaic-property-.webp",
-    url: null,
+    url: "https://mosaic-propmgmt.com/",
   },
   // {
   //   id: 8,
