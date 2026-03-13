@@ -14,7 +14,7 @@ import ContactUs from "./pages/ContactUs/ContactUs";
 import Terms from "./pages/Terms/Terms";
 import Privacy from "./pages/Privacy/Privacy";
 import MagneticCursor from "./components/shared/MagneticCursor/MagneticCursor";
-
+import ScrollToTop from "./components/shared/ScrollToTop/ScrollToTop";
 
 function App() {
   return (
@@ -38,6 +38,7 @@ function App() {
         />
       </Routes>
       <MagneticCursor size={48} color="#b79769" blendMode="normal" />
+      <ScrollToTop />
       <ScrollToTopButton />
     </>
   );
