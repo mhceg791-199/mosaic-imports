@@ -3,6 +3,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import logo from "../../../assets/logo/logo2.webp";
 import { partners } from "../../../data/partners";
+import SectionHeader from "../../shared/SectionHeaders/SectionHeader";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -46,7 +47,7 @@ const MosaicSponsor = () => {
         opacity: 1,
         ease: "back.out(1.2)",
       },
-      "-=0.4"
+      "-=0.4",
     );
 
     return () => ScrollTrigger.getAll().forEach((t) => t.kill());
@@ -57,6 +58,9 @@ const MosaicSponsor = () => {
       ref={containerRef}
       className="relative min-h-screen bg-black text-white overflow-hidden font-sans"
     >
+      <div className="relative z-20 text-center py-8 md:translate-y-16">
+        <SectionHeader firstWord="Our Clients" />
+      </div>
       {/* ================= MAIN STAGE ================= */}
       <div className="relative z-10 h-screen flex items-center justify-center">
         {/* ================= CORE SPONSOR ================= */}

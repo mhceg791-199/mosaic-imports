@@ -24,9 +24,11 @@ const GlobalSlider = () => {
       label: "Integrated Knowledge",
       title: "INTEGRATED ECOSYSTEM",
       icon: <Layers className="w-5 h-5" />,
-      highlight: "Engineering & Real-Estate",
+      highlight: "Market Insight Guiding Global Sourcing",
       description:
-        "We function within a broader ecosystem of architecture, engineering, and real-estate — allowing us to anticipate material requirements beyond theoretical specifications.",
+        "Mosaic Imports combines market intelligence, supplier expertise, and procurement experience to guide every sourcing decision. By understanding material standards, product availability, and global supply dynamics, we ensure that sourcing is not only efficient but aligned with real market needs.",
+      shortDescription:
+        "Mosaic Imports combines market intelligence, supplier expertise, and procurement experience to guide every sourcing decision. By understanding material standards, product availability, and global supply dynamics.",
     },
     {
       id: 2,
@@ -88,9 +90,18 @@ const GlobalSlider = () => {
                 {slides[currentSlide].highlight}
               </h2>
 
-              <p className="text-lg text-lightColor/70 leading-relaxed max-w-2xl">
-                {slides[currentSlide].description}
-              </p>
+              <>
+                {/* Mobile */}
+                <p className="text-lg text-lightColor/70 leading-relaxed max-w-2xl md:hidden">
+                  {slides[currentSlide].shortDescription ||
+                    slides[currentSlide].description}
+                </p>
+
+                {/* Desktop */}
+                <p className="text-lg text-lightColor/70 leading-relaxed max-w-2xl hidden md:block">
+                  {slides[currentSlide].description}
+                </p>
+              </>
             </div>
           </div>
 

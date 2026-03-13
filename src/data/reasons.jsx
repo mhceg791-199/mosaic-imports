@@ -5,9 +5,9 @@ const reasons = [
     id: 0,
     icon: <Compass className="w-8 h-8" />,
     title: "Technical Understanding",
-    subtitle: "Built on real engineering and construction expertise",
+    subtitle: "Insight into materials, specifications, and sourcing requirements",
     description:
-      "A clear understanding of construction, engineering, and architectural workflows.",
+      "A clear understanding of materials, product standards, and global sourcing requirements.",
     color: "from-mainColor to-mainGold",
   },
   {
