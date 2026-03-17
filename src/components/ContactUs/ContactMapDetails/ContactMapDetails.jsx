@@ -38,7 +38,7 @@ function ContactMapDetails() {
               href="mailto:info@mosaic-imports.com"
               className="text-gray-400 text-md hover:text-mainGold transition-colors duration-300"
             >
-              info@mosaicholding.com
+              info@mosaic-imports.com
             </a>
           </div>
         </div>
