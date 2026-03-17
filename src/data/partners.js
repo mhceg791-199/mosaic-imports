@@ -14,7 +14,7 @@ export const partners = [
   {
     id: 3,
     name: "Kaller Architecture",
-    logo: "/sponser/kaller.webp",
+    logo: "/sponser/kaller1.webp",
     url: "https://www.kallerarchitects.com/",
   },
   {
